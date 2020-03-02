@@ -4,7 +4,6 @@ Weather web app that displays weather in selected city
 ## How to run 
 
 - Go to project root directory
-- ```cd weatherio```
 - ```npm i```
 - ```npm run start```
 

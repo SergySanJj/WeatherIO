@@ -1,6 +1,6 @@
 const publicFiles = "./weatherio/frontend";
 const host = '127.0.0.1';
-const port = process.env.PORT || 8080;
+const port = process.env.PORT;
 const apiKey = require("./keys/apiKeys").key;
 const apiOwner = "http://openweathermap.org";
 
