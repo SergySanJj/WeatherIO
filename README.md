@@ -10,7 +10,7 @@ Weather web app that displays weather in selected city
 - ```npm i```
 - ```npm run start```
 
-You will see server output with a link to a hosted website
+You will see server output with a port
 
 
 
