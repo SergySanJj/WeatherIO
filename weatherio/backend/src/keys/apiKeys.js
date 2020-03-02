@@ -1,3 +1,3 @@
-const key = "b6907d289e10d714a6e88b30761fae22"; // Public api keys
+const key = "40d439259718ef3f486d5ccb188390f5"; // Public api key
 
 module.exports.key = key;

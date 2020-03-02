@@ -3,18 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>WeatherIO</title>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-<label>
-    <p>City name:</p>
-    <input type="text" id="city-name" value="London">
-</label>
-<input type="button" value="Search" onclick="startWeatherRequest()">
 
+<div class="main-content">
+    <div class="input-box">
+        <label>
+            <p>City name:</p>
+            <input type="text" id="city-name">
+        </label>
+        <input type="button" value="Search weather" onclick="startWeatherRequest()">
+    </div>
 
-<div id="weather-output">
-    <p id="output"></p>
+    <div class="weather-box" id="weather-output">
+        <p id="info-vis"></p>
+
+        <span class="smaller">
+             <span id="city-vis"></span>
+            <span id="country-vis"></span>
+        </span>
+
+        <p id="temperature-vis" class="temperature main"></p>
+        <p id="temperature-feel-vis" class="temperature"></p>
+        <p id="pressure-vis" class="misc"></p>
+        <p id="humidity-vis" class="misc"></p>
+        <p id="wind-vis" class="misc"></p>
+        <p id="clouds-vis" class="clouds"></p>
+    </div>
 </div>
+
 
 <script src="index.js"></script>
 </body>
