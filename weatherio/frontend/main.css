@@ -49,6 +49,17 @@ html, body {
     min-height: 500px;
 }
 
+.footer {
+    color: #a2cdff;
+    font-size: 10pt;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+
+a {
+    color: #7497c6;
+}
+
 p {
     margin: 10px;
 }
