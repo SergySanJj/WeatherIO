@@ -1,4 +1,4 @@
-const publicFiles = "../frontend";
+const publicFiles = "./weatherio/frontend";
 const host = '127.0.0.1';
 const port = process.env.PORT || 8080;
 const apiKey = require("./keys/apiKeys").key;
