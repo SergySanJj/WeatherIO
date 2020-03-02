@@ -1,6 +1,5 @@
 const publicFiles = "./weatherio/frontend";
-const host = '127.0.0.1';
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 const apiKey = require("./keys/apiKeys").key;
 const apiOwner = "http://openweathermap.org";
 
@@ -32,8 +31,8 @@ app.get("/api/city/*", function (req, res) {
 console.log("Greetings from our weatherio app server");
 console.log(`We are using ${apiOwner} API`);
 
-app.listen(port, host, function () {
-    console.log(`Server listens http://${host}:${port}`);
+app.listen(port, function () {
+    console.log(`Server listens ${port}`);
 });
 
 
